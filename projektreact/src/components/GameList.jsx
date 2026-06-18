@@ -1,4 +1,4 @@
-// GameList.jsx kontener siatki kart z grami
+// GameList.jsx – kontener siatki kart z grami
 
 import GameCard from "./GameCard";
 
@@ -19,7 +19,7 @@ function GameList({ games, searchQuery }) {
   }
 
   return (
-    // CSS Grid siatka kart
+    // CSS Grid – responsywna siatka kart
     <ul className="gamelist-grid" aria-label="Lista gier">
       {games.map((game) => (
         // Renderujemy kartę dla każdej gry z listy

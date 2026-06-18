@@ -1,13 +1,13 @@
-// SearchBar.jsx formularz do filtrowania gier w czasie rzeczywistym
+// SearchBar.jsx – formularz do filtrowania gier w czasie rzeczywistym
 
 function SearchBar({ searchQuery, onSearchChange, resultCount }) {
   return (
     <div className="searchbar-wrapper">
       <div className="searchbar-container">
-        {/* Ikona lupy */}
+        {/* Ikona lupy (emoji) */}
         <span className="searchbar-icon">🔍</span>
 
-        {/* Pole wyszukiwania onChange aktualizuje stan w App */}
+        {/* Pole wyszukiwania – onChange aktualizuje stan w App */}
         <input
           className="searchbar-input"
           type="text"
@@ -17,7 +17,7 @@ function SearchBar({ searchQuery, onSearchChange, resultCount }) {
           aria-label="Wyszukaj grę"
         />
 
-        {/* Przycisk czyszczenia widoczny tylko gdy coś wpisano */}
+        {/* Przycisk czyszczenia – widoczny tylko gdy coś wpisano */}
         {searchQuery && (
           <button
             className="searchbar-clear"

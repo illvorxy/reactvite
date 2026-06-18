@@ -1,7 +1,8 @@
-// GameCard.jsx pojedyncza karta gry
+// GameCard.jsx – pojedyncza karta gry z glassmorphism
+
 import { useState } from "react";
 
-// Mapowanie gatunków na emoji
+// Mapowanie gatunków na emoji dla lepszego UX
 const GENRE_ICONS = {
   Shooter: "🔫",
   MMORPG: "⚔️",

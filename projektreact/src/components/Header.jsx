@@ -1,4 +1,4 @@
-// Header.jsx nagłówek strony z tytułem i opisem aplikacji
+// Header.jsx – nagłówek strony z tytułem i opisem aplikacji
 
 function Header() {
   return (
